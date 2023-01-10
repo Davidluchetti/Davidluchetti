@@ -23,6 +23,7 @@
     <a href="https://api.whatsapp.com/send?phone=+5511980968885" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
+![Snake animation](https://github.com/davidluchetti/davidluchetti/blob/output/github-contribution-grid-snake.svg)
 
 ### <p>:us_outlying_islands: English
 #### Hi there 👋 I'm David Luchetti but you can call me Dave,<br>
