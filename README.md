@@ -24,6 +24,8 @@
 </div>
 
 ![Snake animation](https://github.com/davidluchetti/davidluchetti/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/Davidluchetti/Davidluchetti/blob/main/.github/workflows/main.yml)
+
 
 ### <p>:us_outlying_islands: English
 #### Hi there 👋 I'm David Luchetti but you can call me Dave,<br>
