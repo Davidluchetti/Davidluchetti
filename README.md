@@ -20,7 +20,7 @@
    <a href = "mailto:davidluchetti@hotmail.com.br"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href = "mailto:davidluchetti2013@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/david-luchetti-b04ab3182/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-    <a href="https://api.whatsapp.com/send?phone=+5511980968885" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href="https://wa.me/5511980968885" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
 ### <p>:us_outlying_islands: English
