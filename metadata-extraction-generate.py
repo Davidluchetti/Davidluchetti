@@ -219,4 +219,4 @@ create_task_load_metadeta_table() # uncomment to create the task load table
 
 main() # comment to prevent pulling the metadata, truncating the tables and loading new data
 
-print('done')
+print('Done')
