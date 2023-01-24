@@ -1,7 +1,7 @@
 from airflow import DAG
 from datetime import datetime
 from airflow.operators.python import PythonOperator, BranchPythonOperator
-from airflow.operator.bash import BashOperator
+from airflow.operators.bash import BashOperator
 import pandas as pandas
 import requests
 import json
@@ -41,3 +41,6 @@ with DAG('ETLcommands',start_date = datetime(2023,1,24),
         task_id = 'nvalid',
         bash_command = "echo 'Quantity Not Valid'"
     )
+
+
+capture_account_data >> is_valid >> [valid, nvalid]

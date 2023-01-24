@@ -1406,3 +1406,801 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'airflow.operator'
 [2023-01-24T19:05:25.742+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
 [2023-01-24T19:05:25.770+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T19:05:56.415+0000] {processor.py:153} INFO - Started process (PID=8443) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:56.417+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:05:56.418+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:05:56.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:56.429+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:05:56.427+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:05:56.431+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:56.492+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.083 seconds
+[2023-01-24T19:06:26.927+0000] {processor.py:153} INFO - Started process (PID=8519) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:06:26.928+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:06:26.929+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:06:26.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:06:26.937+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:06:26.936+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:06:26.938+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:06:26.972+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.051 seconds
+[2023-01-24T19:06:57.017+0000] {processor.py:153} INFO - Started process (PID=8583) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:06:57.018+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:06:57.019+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:06:57.018+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:06:57.027+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:06:57.026+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:06:57.028+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:06:57.059+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.046 seconds
+[2023-01-24T19:07:27.092+0000] {processor.py:153} INFO - Started process (PID=8647) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:07:27.093+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:07:27.094+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:07:27.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:07:27.101+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:07:27.100+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:07:27.101+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:07:27.137+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.049 seconds
+[2023-01-24T19:07:57.431+0000] {processor.py:153} INFO - Started process (PID=8722) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:07:57.432+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:07:57.433+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:07:57.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:07:57.440+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:07:57.439+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:07:57.440+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:07:57.478+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.051 seconds
+[2023-01-24T19:08:28.251+0000] {processor.py:153} INFO - Started process (PID=8786) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:08:28.253+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:08:28.253+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:08:28.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:08:28.260+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:08:28.259+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:08:28.261+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:08:28.288+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:08:58.551+0000] {processor.py:153} INFO - Started process (PID=8862) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:08:58.553+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:08:58.553+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:08:58.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:08:58.559+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:08:58.558+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:08:58.560+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:08:58.591+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T19:09:28.878+0000] {processor.py:153} INFO - Started process (PID=8926) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:09:28.885+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:09:28.886+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:09:28.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:09:28.892+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:09:28.891+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:09:28.893+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:09:28.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.046 seconds
+[2023-01-24T19:09:59.286+0000] {processor.py:153} INFO - Started process (PID=9002) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:09:59.288+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:09:59.289+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:09:59.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:09:59.299+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:09:59.298+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:09:59.299+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:09:59.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.066 seconds
+[2023-01-24T19:10:29.497+0000] {processor.py:153} INFO - Started process (PID=9070) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:10:29.500+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:10:29.501+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:10:29.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:10:29.509+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:10:29.509+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:10:29.510+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:10:29.545+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.053 seconds
+[2023-01-24T19:10:59.753+0000] {processor.py:153} INFO - Started process (PID=9135) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:10:59.753+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:10:59.754+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:10:59.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:10:59.761+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:10:59.760+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:10:59.761+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:10:59.794+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.045 seconds
+[2023-01-24T19:11:30.384+0000] {processor.py:153} INFO - Started process (PID=9211) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:11:30.385+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:11:30.386+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:11:30.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:11:30.392+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:11:30.392+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:11:30.393+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:11:30.421+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:12:00.826+0000] {processor.py:153} INFO - Started process (PID=9275) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:12:00.827+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:12:00.828+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:12:00.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:12:00.834+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:12:00.833+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:12:00.835+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:12:00.877+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.054 seconds
+[2023-01-24T19:12:31.119+0000] {processor.py:153} INFO - Started process (PID=9341) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:12:31.120+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:12:31.121+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:12:31.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:12:31.127+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:12:31.126+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:12:31.127+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:12:31.154+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.040 seconds
+[2023-01-24T19:13:01.243+0000] {processor.py:153} INFO - Started process (PID=9418) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:13:01.245+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:13:01.246+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:13:01.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:13:01.253+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:13:01.252+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:13:01.254+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:13:01.288+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.050 seconds
+[2023-01-24T19:13:32.210+0000] {processor.py:153} INFO - Started process (PID=9482) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:13:32.211+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:13:32.212+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:13:32.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:13:32.233+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:13:32.232+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:13:32.233+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:13:32.279+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.077 seconds
+[2023-01-24T19:14:02.516+0000] {processor.py:153} INFO - Started process (PID=9558) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:14:02.517+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:14:02.518+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:14:02.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:14:02.525+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:14:02.524+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:14:02.525+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:14:02.553+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:14:32.588+0000] {processor.py:153} INFO - Started process (PID=9621) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:14:32.588+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:14:32.589+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:14:32.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:14:32.596+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:14:32.595+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:14:32.596+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:14:32.625+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T19:15:03.338+0000] {processor.py:153} INFO - Started process (PID=9695) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:15:03.339+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:15:03.340+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:15:03.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:15:03.347+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:15:03.346+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:15:03.347+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:15:03.381+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T19:15:33.740+0000] {processor.py:153} INFO - Started process (PID=9763) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:15:33.741+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:15:33.742+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:15:33.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:15:33.748+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:15:33.747+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:15:33.749+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:15:33.782+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.049 seconds
+[2023-01-24T19:16:04.140+0000] {processor.py:153} INFO - Started process (PID=9828) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:16:04.141+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:16:04.142+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:16:04.142+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:16:04.150+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:16:04.149+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:16:04.150+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:16:04.185+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.050 seconds
+[2023-01-24T19:16:34.554+0000] {processor.py:153} INFO - Started process (PID=9905) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:16:34.555+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:16:34.556+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:16:34.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:16:34.562+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:16:34.561+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:16:34.563+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:16:34.593+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T19:17:05.165+0000] {processor.py:153} INFO - Started process (PID=9971) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:17:05.166+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:17:05.167+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:17:05.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:17:05.174+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:17:05.173+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:17:05.174+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:17:05.204+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T19:17:35.480+0000] {processor.py:153} INFO - Started process (PID=10049) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:17:35.481+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:17:35.482+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:17:35.481+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:17:35.488+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:17:35.487+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:17:35.488+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:17:35.519+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T19:18:06.155+0000] {processor.py:153} INFO - Started process (PID=10113) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:18:06.156+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:18:06.157+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:18:06.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:18:06.163+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:18:06.162+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:18:06.163+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:18:06.191+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:18:36.762+0000] {processor.py:153} INFO - Started process (PID=10179) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:18:36.763+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:18:36.764+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:18:36.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:18:36.773+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:18:36.771+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:18:36.773+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:18:36.813+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.056 seconds
+[2023-01-24T19:19:07.338+0000] {processor.py:153} INFO - Started process (PID=10256) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:19:07.338+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:19:07.339+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:19:07.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:19:07.346+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:19:07.345+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:19:07.346+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:19:07.377+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T19:19:38.052+0000] {processor.py:153} INFO - Started process (PID=10320) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:19:38.054+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:19:38.054+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:19:38.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:19:38.062+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:19:38.061+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:19:38.062+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:19:38.089+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:20:09.046+0000] {processor.py:153} INFO - Started process (PID=10397) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:20:09.047+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:20:09.048+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:20:09.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:20:09.054+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:20:09.054+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:20:09.055+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:20:09.083+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T19:20:39.781+0000] {processor.py:153} INFO - Started process (PID=10461) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:20:39.781+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:20:39.782+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:20:39.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:20:39.789+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:20:39.788+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:20:39.789+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:20:39.816+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.039 seconds
+[2023-01-24T19:21:10.070+0000] {processor.py:153} INFO - Started process (PID=10525) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:21:10.072+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:21:10.073+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:21:10.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:21:10.090+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:21:10.089+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:21:10.091+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:21:10.126+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.062 seconds
+[2023-01-24T19:21:40.151+0000] {processor.py:153} INFO - Started process (PID=10602) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:21:40.151+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:21:40.152+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:21:40.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:21:40.159+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:21:40.158+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:21:40.160+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:21:40.192+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.046 seconds
+[2023-01-24T19:22:10.744+0000] {processor.py:153} INFO - Started process (PID=10666) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:22:10.746+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:22:10.746+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:22:10.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:22:10.753+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:22:10.752+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:22:10.754+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:22:10.780+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:22:41.097+0000] {processor.py:153} INFO - Started process (PID=10743) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:22:41.104+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:22:41.105+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:22:41.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:22:41.124+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:22:41.123+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:22:41.125+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:22:41.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.073 seconds
+[2023-01-24T19:23:11.503+0000] {processor.py:153} INFO - Started process (PID=10809) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:23:11.505+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:23:11.505+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:23:11.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:23:11.512+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:23:11.511+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:23:11.512+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:23:11.541+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T19:23:42.172+0000] {processor.py:153} INFO - Started process (PID=10873) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:23:42.173+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:23:42.174+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:23:42.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:23:42.182+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:23:42.181+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:23:42.183+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:23:42.214+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.048 seconds
+[2023-01-24T19:24:12.683+0000] {processor.py:153} INFO - Started process (PID=10950) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:24:12.684+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:24:12.684+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:24:12.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:24:12.692+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:24:12.691+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:24:12.692+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:24:12.731+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.054 seconds
+[2023-01-24T19:24:43.015+0000] {processor.py:153} INFO - Started process (PID=11014) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:24:43.016+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:24:43.016+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:24:43.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:24:43.023+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:24:43.022+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:24:43.024+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:24:43.055+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T19:25:13.175+0000] {processor.py:153} INFO - Started process (PID=11091) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:25:13.176+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:25:13.177+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:25:13.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:25:13.186+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:25:13.185+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:25:13.186+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:25:13.220+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.050 seconds
+[2023-01-24T19:25:43.693+0000] {processor.py:153} INFO - Started process (PID=11156) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:25:43.694+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:25:43.695+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:25:43.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:25:43.702+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:25:43.701+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:25:43.702+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:25:43.731+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T19:26:14.124+0000] {processor.py:153} INFO - Started process (PID=11220) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:26:14.125+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:26:14.125+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:26:14.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:26:14.132+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:26:14.131+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:26:14.133+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:26:14.178+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.059 seconds
+[2023-01-24T19:26:44.369+0000] {processor.py:153} INFO - Started process (PID=11297) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:26:44.370+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:26:44.371+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:26:44.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:26:44.377+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:26:44.377+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:26:44.378+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:26:44.405+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.040 seconds
+[2023-01-24T19:27:14.568+0000] {processor.py:153} INFO - Started process (PID=11363) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:14.569+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:27:14.569+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:27:14.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:14.576+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:27:14.575+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:27:14.576+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:14.608+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.046 seconds
+[2023-01-24T19:27:27.681+0000] {processor.py:153} INFO - Started process (PID=11376) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:27.682+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:27:27.683+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:27:27.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:27.690+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:27:27.689+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:27:27.690+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:27.717+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.040 seconds
+[2023-01-24T19:27:58.256+0000] {processor.py:153} INFO - Started process (PID=11455) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:58.257+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:27:58.258+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:27:58.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:58.264+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:27:58.263+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:27:58.265+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:27:58.292+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:28:28.839+0000] {processor.py:153} INFO - Started process (PID=11520) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:28:28.840+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:28:28.841+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:28:28.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:28:28.848+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:28:28.847+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:28:28.849+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:28:28.878+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T19:28:59.151+0000] {processor.py:153} INFO - Started process (PID=11593) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:28:59.152+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:28:59.153+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:28:59.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:28:59.159+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:28:59.159+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:28:59.160+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:28:59.188+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.040 seconds
+[2023-01-24T19:29:29.650+0000] {processor.py:153} INFO - Started process (PID=11660) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:29:29.651+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:29:29.652+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:29:29.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:29:29.658+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:29:29.657+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:29:29.658+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:29:29.685+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.039 seconds
+[2023-01-24T19:29:59.913+0000] {processor.py:153} INFO - Started process (PID=11724) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:29:59.914+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:29:59.915+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:29:59.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:29:59.921+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:29:59.921+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:29:59.922+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:29:59.950+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:30:30.194+0000] {processor.py:153} INFO - Started process (PID=11800) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:30:30.195+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:30:30.196+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:30:30.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:30:30.203+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:30:30.202+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:30:30.204+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:30:30.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T19:31:00.632+0000] {processor.py:153} INFO - Started process (PID=11864) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:31:00.633+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:31:00.634+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:31:00.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:31:00.640+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:31:00.639+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:31:00.641+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:31:00.668+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T19:31:31.257+0000] {processor.py:153} INFO - Started process (PID=11940) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:31:31.258+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:31:31.259+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:31:31.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:31:31.265+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:31:31.264+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:31:31.266+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:31:31.301+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.049 seconds
+[2023-01-24T19:32:01.726+0000] {processor.py:153} INFO - Started process (PID=12005) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:32:01.728+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:32:01.728+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:32:01.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:32:01.735+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:32:01.734+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:32:01.735+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:32:01.764+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T19:32:32.396+0000] {processor.py:153} INFO - Started process (PID=12081) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:32:32.397+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:32:32.397+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:32:32.397+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:32:32.404+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:32:32.403+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:32:32.404+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:32:32.438+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T19:33:02.712+0000] {processor.py:153} INFO - Started process (PID=12145) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:02.714+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:33:02.715+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:33:02.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:02.722+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:33:02.721+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:33:02.723+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:02.781+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.075 seconds
+[2023-01-24T19:33:27.934+0000] {processor.py:153} INFO - Started process (PID=12209) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:27.935+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:33:27.936+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:33:27.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:29.419+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:33:29.417+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 23, in <module>
+    schedule_interval = '30 * * * *', catchup= false) as dag:
+NameError: name 'false' is not defined
+[2023-01-24T19:33:29.419+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:29.443+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 1.513 seconds
+[2023-01-24T19:33:29.976+0000] {processor.py:153} INFO - Started process (PID=12211) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:29.977+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:33:29.978+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:33:29.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:30.449+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:33:30.447+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 23, in <module>
+    schedule_interval = '30 * * * *', catchup= false) as dag:
+NameError: name 'false' is not defined
+[2023-01-24T19:33:30.449+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:33:30.474+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.505 seconds
