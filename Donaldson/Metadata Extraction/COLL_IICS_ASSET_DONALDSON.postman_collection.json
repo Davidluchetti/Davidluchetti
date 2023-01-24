@@ -1,0 +1,815 @@
+{
+	"info": {
+		"_postman_id": "25b7f850-a464-4833-b6fa-faa6319f9f62",
+		"name": "COLL_IICS_ASSET_DONALDSON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21847859"
+	},
+	"item": [
+		{
+			"name": "Prototype",
+			"item": []
+		},
+		{
+			"name": "000 - UTILS",
+			"item": [
+				{
+					"name": "2.1 - CONFIRMING_THE_RUNTIME_ENVIRONMENT",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "lQ7LhDvFXKPjjPBANWcvSF"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"runtimeEnvironment"
+							]
+						},
+						"description": "\r\nThis is important because all the commands need to go to a specific environment. \r\nThe expected result from this API is provide the Runtime Environment ID\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment\r\n\r\nMETHOD:GET\r\n[Header] \r\nicSessionID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				},
+				{
+					"name": "3.2 - GENERATING_MAPPING_LIST",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "INFA-SESSION-ID",
+								"value": "6zE1VGrRi1zbSN15OffPk9"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/public/core/v3/objects?q=type=='DTEMPLATE'",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"public",
+								"core",
+								"v3",
+								"objects"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "type=='DTEMPLATE'"
+								}
+							]
+						},
+						"description": "Step 3 is crucial in order to populate the first two fields on the IICS Object Change Control table:\r\n\r\nIICS_OBJ_ID\r\nIICS_OBJ_PATH\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/public/core/v3/objects?q=type=='MTT'\r\n\r\nMETHOD:GET\r\n[Header] \r\nINFA-SESSION-ID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				},
+				{
+					"name": "4.2 - GET_MAPPING_BODY_STRUCTURE",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "6zE1VGrRi1zbSN15OffPk9"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mapping/",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mapping",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4.0 - Example_UPDATE_GROUP_OF_MTASK_PARAMETERS",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "kLjFFLrMIkAlNgrj8nhCo6"
+							},
+							{
+								"key": "Update-Mode",
+								"value": "PARTIAL"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"@type\": \"mtTask\",\r\n    \"description\": \"RITMO_AUTO1\",\r\n    \"preProcessingCmd\": \"cp /app/POC/abc.txt /app/POC/abc_latest_poc.txt\",\r\n    \"postProcessingCmd\": \"env > /app/POC/env.txt\",\r\n    \"parameterFileName\": \"RITMO1_Auto_mapping_parm.par\",\r\n    \"parameterFileDir\": \"$PMSourceFileDir\",\r\n    \"parameters\": [\r\n        {\r\n            \"@type\": \"mtTaskParameter\",\r\n            \"id\": 5017958,\r\n            \"name\": \"$WC_SUPPLIER_CLASS_DS$\",\r\n            \"type\": \"TARGET\",\r\n            \"truncateTarget\": true,\r\n            \"bulkApiDBTarget\": false,\r\n            \"operationType\": \"Update\",\r\n            \"tgtFieldRefs\": {},\r\n            \"targetUpdateColumns\": [],\r\n            \"extendedObject\": {\r\n                \"@type\": \"extendedObject\",\r\n                \"filters\": [],\r\n                \"sortFields\": []\r\n            },\r\n            \"oprRuntimeAttrs\": {\r\n                \"postsql\": \"Post_SQL_RITMO1_Auto_AFTER;\",\r\n                \"schema\": \"=DWH_DR12=\",\r\n                \"updateOverride\": \"\",\r\n                \"role\": \"=INFORMATICA_SERVICE_ROLE=\",\r\n                \"UpdateMode\": \"Update As Update\",\r\n                \"truncatetarget\": \"YES\",\r\n                \"warehouse\": \"=INFORMATICA_SERVICE_WHSE=\",\r\n                \"numberofstagingfiles\": \"\",\r\n                \"database\": \"=EDW_TEMPLATE=\",\r\n                \"batchrowsize\": \"\",\r\n                \"rejectedfilepath\": \"$PMBadFileDir\\\\wc_supplier_class_ds1.bad\",\r\n                \"additionalparam\": \"\",\r\n                \"tablename\": \"AAAAAAAAA\",\r\n                \"presql\": \"Pre_SQL_RITMO1_Auto_AFTER;\"\r\n            }\r\n        }\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/4lAwEXWDNYzh9Z2bInkrQJ",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"4lAwEXWDNYzh9Z2bInkrQJ"
+							]
+						},
+						"description": "\r\nThis is important because all the commands need to go to a specific environment. \r\nThe expected result from this API is provide the Runtime Environment ID\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment\r\n\r\nMETHOD:GET\r\n[Header] \r\nicSessionID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				},
+				{
+					"name": "3.1 - GET_TASKFLOW_BODY_STRUCTURE",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "6zE1VGrRi1zbSN15OffPk9"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/4lAwEXWDNYzh9Z2bInkrQJ",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"4lAwEXWDNYzh9Z2bInkrQJ"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "1 - Login",
+			"item": [
+				{
+					"name": "1.1 - IICS_LOGIN",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"@type\":\"login\",\n\"username\":\"IICS_USER\",\n\"password\":\"IICS_PASSWORD\"\n}"
+						},
+						"url": {
+							"raw": "https://dm1-us.informaticacloud.com/ma/api/v2/user/login",
+							"protocol": "https",
+							"host": [
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"ma",
+								"api",
+								"v2",
+								"user",
+								"login"
+							]
+						},
+						"description": "Login in IICS\n\n\nMETHOD: POST \nURL: https://dm1-us.informaticacloud.com/ma/api/v2/user/login\nContent-Type: application/json\nAccept: application/json\n\nBODY/PAYLOAD\n\n{\n\"@type\": \"login\",\n\"username\": \"user@infa.com\",\n\"password\": \"mypassword\"\n}\n\n{\n\"@type\":\"login\",\n\"username\":\"RESTASSETUPDATE\",\n\"password\":\"nATs8HM3w@jc8Jy\"\n}\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2 - GENERATING_MAPPING_TASK_LIST",
+			"item": [
+				{
+					"name": "2.1 - GENERATING_MAPPING_TASK_LIST",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "INFA-SESSION-ID",
+								"value": "enYFFbYWUGlccT3b3Ht4we"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/public/core/v3/objects?q=type=='MTT'",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"public",
+								"core",
+								"v3",
+								"objects"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "type=='MTT'"
+								}
+							]
+						},
+						"description": "Step 3 is crucial in order to populate the first two fields on the IICS Object Change Control table:\r\n\r\nIICS_OBJ_ID\r\nIICS_OBJ_PATH\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/public/core/v3/objects?q=type=='MTT'\r\n\r\nMETHOD:GET\r\n[Header] \r\nINFA-SESSION-ID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "3 - GET_OBJECT_BODY_STRUTURE",
+			"item": [
+				{
+					"name": "3.1 - GET_MTASK_BODY_STRUCTURE",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "bj5tcxW86s8lqRLUeRQzwi"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/klKWzJz1IaOkKSXJWmUnIj",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"klKWzJz1IaOkKSXJWmUnIj"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "4 - UPDATE_MAPPING_TASK",
+			"item": [
+				{
+					"name": "4.1 - UPDATE_PRE_POST_COMMAND",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "1fTiefXEeL2jlF7FzxIMcj"
+							},
+							{
+								"key": "Update-Mode",
+								"value": "PARTIAL"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"@type\": \"mtTask\",\r\n    \"description\": \"RITMO_AUTO1\",\r\n    \"preProcessingCmd\": \"cp /app/POC/abc.txt /app/POC/abc_latest_poc.txt\",\r\n    \"postProcessingCmd\": \"env > /app/POC/env.txt\"\r\n    \r\n}"
+						},
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/4lAwEXWDNYzh9Z2bInkrQJ",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"4lAwEXWDNYzh9Z2bInkrQJ"
+							]
+						},
+						"description": "\r\nThis is important because all the commands need to go to a specific environment. \r\nThe expected result from this API is provide the Runtime Environment ID\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment\r\n\r\nMETHOD:GET\r\n[Header] \r\nicSessionID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				},
+				{
+					"name": "4.2 - UPDATE_TRUNCATE_TABLE",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "bj5tcxW86s8lqRLUeRQzwi"
+							},
+							{
+								"key": "Update-Mode",
+								"value": "PARTIAL"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"@type\": \"mtTask\",\r\n     \"parameters\": [\r\n        {\r\n            \"@type\": \"mtTaskParameter\",\r\n            \"id\": 5482595,\r\n            \"name\": \"$WC_APD_PART_REVENUE_FS$\",\r\n            \"type\": \"TARGET\",\r\n            \"truncateTarget\": true,\r\n            \"tgtFieldRefs\": {},\r\n            \"targetUpdateColumns\": [],\r\n            \"extendedObject\": {\r\n                \"@type\": \"extendedObject\",\r\n                \"filters\": [],\r\n                \"sortFields\": []\r\n            }\r\n        }\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/klKWzJz1IaOkKSXJWmUnIj",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"klKWzJz1IaOkKSXJWmUnIj"
+							]
+						},
+						"description": "\r\nThis is important because all the commands need to go to a specific environment. \r\nThe expected result from this API is provide the Runtime Environment ID\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment\r\n\r\nMETHOD:GET\r\n[Header] \r\nicSessionID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				},
+				{
+					"name": "4.3 - UPDATE_PRE_POST_SQL",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "ez0hKaCfdmceuvrvYJ3R23"
+							},
+							{
+								"key": "Update-Mode",
+								"value": "PARTIAL"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"@type\": \"mtTask\",\r\n    \"parameters\": [\r\n        {\r\n            \"@type\": \"mtTaskParameter\",\r\n            \"id\": 5017958,\r\n            \"name\": \"$WC_SUPPLIER_CLASS_DS$\",\r\n            \"type\": \"TARGET\",\r\n            \"oprRuntimeAttrs\": {\r\n                \"postsql\": \"RITMO1ALTER TABLE TABLE_NAME ENABLE CONSTRAINT CONSTRAINT_NAME;\",\r\n                \"presql\": \"RITMO1@@ALTER TABLE TABLE_NAME ENABLE CONSTRAINT CONSTRAINT_NAME;\"\r\n            }\r\n        }\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/4lAwEXWDNYzh9Z2bInkrQJ",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"4lAwEXWDNYzh9Z2bInkrQJ"
+							]
+						},
+						"description": "\r\nThis is important because all the commands need to go to a specific environment. \r\nThe expected result from this API is provide the Runtime Environment ID\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment\r\n\r\nMETHOD:GET\r\n[Header] \r\nicSessionID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				},
+				{
+					"name": "4.4 - UPDATE_PARAMETER_FILE",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "1fTiefXEeL2jlF7FzxIMcj"
+							},
+							{
+								"key": "Update-Mode",
+								"value": "PARTIAL"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"@type\": \"mtTask\",\r\n    \"parameterFileName\": \"RITMO1_Auto_mapping_parm.par\",\r\n    \"parameterFileDir\": \"$PMSourceFileDir\"\r\n}"
+						},
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/4lAwEXWDNYzh9Z2bInkrQJ",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"4lAwEXWDNYzh9Z2bInkrQJ"
+							]
+						},
+						"description": "\r\nThis is important because all the commands need to go to a specific environment. \r\nThe expected result from this API is provide the Runtime Environment ID\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment\r\n\r\nMETHOD:GET\r\n[Header] \r\nicSessionID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				},
+				{
+					"name": "4.5 - UPDATE_DATABASE_AND_SCHEMA",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "absXvBbXhAsgHGAizqKhwn"
+							},
+							{
+								"key": "Update-Mode",
+								"value": "PARTIAL"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"@type\": \"mtTask\",\r\n    \"parameters\": [\r\n        {\r\n            \"@type\": \"mtTaskParameter\",\r\n            \"id\": 5017958,\r\n            \"name\": \"$WC_SUPPLIER_CLASS_DS$\",\r\n            \"type\": \"TARGET\",\r\n            \"oprRuntimeAttrs\": {\r\n               \"schema\": \"$$DBSchema\",\r\n               \"role\": \"$$DBRole\",\r\n               \"database\": \"$$DBName\",\r\n               \"warehouse\": \"$$DBWarehouse\"\r\n               \r\n            }\r\n        }\r\n    ]\r\n}\r\n"
+						},
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/4lAwEXWDNYzh9Z2bInkrQJ",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"mttask",
+								"4lAwEXWDNYzh9Z2bInkrQJ"
+							]
+						},
+						"description": "\r\nThis is important because all the commands need to go to a specific environment. \r\nThe expected result from this API is provide the Runtime Environment ID\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/runtimeEnvironment\r\n\r\nMETHOD:GET\r\n[Header] \r\nicSessionID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				}
+			],
+			"description": "This API is used to update a given mapping task parameter.\nmttask/<id>\n\nMethod:POST\nURL: https://usw1.dm1-us.informaticacloud.com/saas/api/v2/mttask/<id>97TJzLelImCdnYukrZecMH\n[Header] \nicSessionId: <icSessionId>\nUpdate-Mode:PARTIAL\nContent-type: application/json\nAccept:application/json\nBody: Change the source object or target object\n\nResponse of the  step 3 - GET_OBJECT_BODY_STRUCTURE call will be used as Body to this POST call.\nRemove createdBy, createdTime, updatedBy, updatedTime, orgId in the JSON body",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "5 - GET_TASKS_RUN_DETAILS",
+			"item": [
+				{
+					"name": "5.1 - GET_TASK_DETAILS",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "icSessionId",
+								"value": "eO8Aw2vj9m9c4GKpFMLNOG"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/api/v2/activity/activityLog",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"api",
+								"v2",
+								"activity",
+								"activityLog"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5.2 - GET_TASKFLOW_INFO",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "INFA-SESSION-ID",
+								"value": "enYFFbYWUGlccT3b3Ht4we"
+							}
+						],
+						"url": {
+							"raw": "https://usw1.dm1-us.informaticacloud.com/saas/public/core/v3/objects?q=type=='MTT'",
+							"protocol": "https",
+							"host": [
+								"usw1",
+								"dm1-us",
+								"informaticacloud",
+								"com"
+							],
+							"path": [
+								"saas",
+								"public",
+								"core",
+								"v3",
+								"objects"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "type=='MTT'"
+								}
+							]
+						},
+						"description": "Step 3 is crucial in order to populate the first two fields on the IICS Object Change Control table:\r\n\r\nIICS_OBJ_ID\r\nIICS_OBJ_PATH\r\n\r\n\r\nURL: https://usw1.dm1-us.informaticacloud.com/saas/public/core/v3/objects?q=type=='MTT'\r\n\r\nMETHOD:GET\r\n[Header] \r\nINFA-SESSION-ID:YOU_GET_THIS_INFO_IN_STEP_1_LOGIN\r\nContent-type: application/json\r\nAccept:application/json"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

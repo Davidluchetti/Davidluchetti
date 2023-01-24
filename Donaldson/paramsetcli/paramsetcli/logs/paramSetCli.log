@@ -1,0 +1,107 @@
+ INFO	[2021-06-19 21:17:02,825] [main] (AeBaseCliPlugin.java:134)
+     	Welcome to Informatica CLI tool.
+
+ INFO	[2021-06-19 21:17:05,642] [main] (AeParamSetTask.java:113)
+     	6/19/21 9:17 PM: Running download action on tf_paramset.param
+
+ INFO	[2021-06-19 21:17:06,887] [main] (AeParamSetTask.java:157)
+     	Successfully completed download action. Parameter File saved at location: C:\SecureAgents\TargetPROD\tf_paramset.param
+
+ INFO	[2021-06-19 21:17:22,879] [main] (AeBaseCliPlugin.java:134)
+     	Welcome to Informatica CLI tool.
+
+ INFO	[2021-06-19 21:17:25,656] [main] (AeParamSetTask.java:105)
+     	6/19/21 9:17 PM: Running upload action on tf_paramset.param
+
+ INFO	[2021-06-19 21:17:26,771] [main] (AeParamSetTask.java:157)
+     	Successfully completed upload action. {
+  "paramSetName" : "tf_paramset.param",
+  "parameterFileName" : "tf_paramset.param",
+  "parameterDir" : "C:\\SecureAgents\\ParameterFiles"
+}
+
+ INFO	[2021-06-19 21:17:33,100] [main] (AeBaseCliPlugin.java:134)
+     	Welcome to Informatica CLI tool.
+
+ INFO	[2021-06-19 21:17:35,903] [main] (AeParamSetTask.java:113)
+     	6/19/21 9:17 PM: Running download action on tf_paramset.param
+
+ INFO	[2021-06-19 21:17:37,090] [main] (AeParamSetTask.java:157)
+     	Successfully completed download action. Parameter File saved at location: C:\SecureAgents\TargetPROD\tf_paramset.param
+
+ INFO	[2021-06-19 21:19:28,343] [main] (AeBaseCliPlugin.java:134)
+     	Welcome to Informatica CLI tool.
+
+ INFO	[2021-06-19 21:19:31,342] [main] (AeParamSetTask.java:129)
+     	6/19/21 9:19 PM: Running list action on Page: 1 with PageSize: 50
+
+ INFO	[2021-06-19 21:19:32,443] [main] (AeParamSetTask.java:157)
+     	Successfully completed list action. [ {
+  "modificationDate" : "2021-06-19T15:47:24.264+0000",
+  "createdBy" : "ishwar_pod1",
+  "paramSetName" : "tf_paramset.param",
+  "parameterFileName" : "tf_paramset.param",
+  "parameterDir" : "C:\\SecureAgents\\ParameterFiles",
+  "modifiedBy" : "ishwar_pod1",
+  "creationDate" : "2021-06-19T15:47:24.264+0000"
+}, {
+  "modificationDate" : "2021-05-22T09:12:25.682+0000",
+  "createdBy" : "ishwar_pod1",
+  "paramSetName" : "uniqueSet",
+  "parameterFileName" : "TestVarWithoutValue.param",
+  "parameterDir" : "C:/ParamFile",
+  "modifiedBy" : "ishwar_pod1",
+  "creationDate" : "2021-05-22T09:12:25.682+0000"
+} ]
+
+ INFO	[2021-06-20 06:41:11,860] [main] (AeBaseCliPlugin.java:134)
+     	Welcome to Informatica CLI tool.
+
+ INFO	[2021-06-20 06:41:14,777] [main] (AeParamSetTask.java:105)
+     	6/20/21 6:41 AM: Running upload action on tf_paramset.param
+
+ INFO	[2021-06-20 06:41:15,928] [main] (AeParamSetTask.java:157)
+     	Successfully completed upload action. {
+  "paramSetName" : "tf_paramset.param",
+  "parameterFileName" : "tf_paramset.param",
+  "parameterDir" : "C:\\SecureAgents\\ParameterFiles"
+}
+
+ INFO	[2021-06-21 21:34:57,262] [main] (AeBaseCliPlugin.java:134)
+     	Welcome to Informatica CLI tool.
+
+ INFO	[2021-06-21 21:35:00,548] [main] (AeParamSetTask.java:105)
+     	6/21/21 9:35 PM: Running upload action on tf_paramset.param
+
+ INFO	[2021-06-21 21:35:01,850] [main] (AeParamSetTask.java:157)
+     	Successfully completed upload action. {
+  "paramSetName" : "tf_paramset.param",
+  "parameterFileName" : "tf_paramset.param",
+  "parameterDir" : "C:\\SecureAgents\\ParameterFiles"
+}
+
+ INFO	[2021-06-21 21:35:20,588] [main] (AeBaseCliPlugin.java:134)
+     	Welcome to Informatica CLI tool.
+
+ INFO	[2021-06-21 21:35:23,901] [main] (AeParamSetTask.java:129)
+     	6/21/21 9:35 PM: Running list action on Page: 1 with PageSize: 50
+
+ INFO	[2021-06-21 21:35:25,008] [main] (AeParamSetTask.java:157)
+     	Successfully completed list action. [ {
+  "modificationDate" : "2021-06-21T16:05:01.580+0000",
+  "createdBy" : "ishwar_pod1",
+  "paramSetName" : "tf_paramset.param",
+  "parameterFileName" : "tf_paramset.param",
+  "parameterDir" : "C:\\SecureAgents\\ParameterFiles",
+  "modifiedBy" : "ishwar_pod1",
+  "creationDate" : "2021-06-21T16:05:01.580+0000"
+}, {
+  "modificationDate" : "2021-05-22T09:12:25.682+0000",
+  "createdBy" : "ishwar_pod1",
+  "paramSetName" : "uniqueSet",
+  "parameterFileName" : "TestVarWithoutValue.param",
+  "parameterDir" : "C:/ParamFile",
+  "modifiedBy" : "ishwar_pod1",
+  "creationDate" : "2021-05-22T09:12:25.682+0000"
+} ]
+

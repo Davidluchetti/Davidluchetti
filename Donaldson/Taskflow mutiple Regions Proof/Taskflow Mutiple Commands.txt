@@ -1,0 +1,21 @@
+comandos para fazer upload de parameter set no iics repository:
+
+paramsetcli.bat runParamSetCli -un europe_region_parameter -pf europe_region_parameter.txt -pd "C:\parameterset" -a upload
+
+paramsetcli.bat runParamSetCli -un custom_region_parameter -pf custom_region_parameter.txt -pd "C:\parameterset" -a upload
+
+paramsetcli.bat runParamSetCli -un apac_region_parameter -pf apac_region_parameter.txt -pd "C:\parameterset" -a upload
+
+paramsetcli.bat runParamSetCli -un america_region_parameter -pf america_region_parameter.txt -pd "C:\parameterset" -a upload
+
+paramsetcli.bat runParamSetCli -un all_region_parameter -pf all_region_parameter.txt -pd "C:\parameterset" -a upload
+
+
+command line para executar taskflow passando parameter set como argumento:
+/app/IICSAgent/apps/runAJobCli/cli.sh runAJobCli -un DCI_R12_DATAWAREHOUSE_ParamTest -t taskflow -fp 'Enterprise Data Warehouse\EDW Taskflows' -pun europe_region_parameter -w
+/app/IICSAgent/apps/runAJobCli/cli.sh runAJobCli -un DCI_R12_DATAWAREHOUSE_ParamTest -t taskflow -fp 'Enterprise Data Warehouse\EDW Taskflows' -pun custom_region_parameter -w
+/app/IICSAgent/apps/runAJobCli/cli.sh runAJobCli -un DCI_R12_DATAWAREHOUSE_ParamTest -t taskflow -fp 'Enterprise Data Warehouse\EDW Taskflows' -pun apac_region_parameter -w
+/app/IICSAgent/apps/runAJobCli/cli.sh runAJobCli -un DCI_R12_DATAWAREHOUSE_ParamTest -t taskflow -fp 'Enterprise Data Warehouse\EDW Taskflows' -pun america_region_parameter -w
+/app/IICSAgent/apps/runAJobCli/cli.sh runAJobCli -un DCI_R12_DATAWAREHOUSE_ParamTest -t taskflow -fp 'Enterprise Data Warehouse\EDW Taskflows' -pun all_region_parameter -w
+
+taskflow pai: mtt multi region, taskflow initial, task01-25, taskflow end
