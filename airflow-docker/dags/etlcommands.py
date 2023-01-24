@@ -20,7 +20,7 @@ def is_valid(ti):
     return 'nvalid'
 
 with DAG('ETLcommands',start_date = datetime(2023,1,24),
-        schedule_interval = '30 * * * *', catchup= false) as dag:
+        schedule_interval = '30 * * * *', catchup= False) as dag:
 
     capture_account_data = PythonOperator(
         task_id = 'capture_account_data',
