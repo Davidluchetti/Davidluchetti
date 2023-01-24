@@ -474,3 +474,935 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 [2023-01-24T18:37:49.075+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
 [2023-01-24T18:37:49.104+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.038 seconds
+[2023-01-24T18:38:19.983+0000] {processor.py:153} INFO - Started process (PID=4697) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:38:19.984+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:38:19.985+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:38:19.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:38:19.989+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:38:19.987+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:38:19.989+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:38:20.027+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.049 seconds
+[2023-01-24T18:38:50.691+0000] {processor.py:153} INFO - Started process (PID=4766) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:38:50.692+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:38:50.693+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:38:50.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:38:50.695+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:38:50.694+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:38:50.696+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:38:50.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.039 seconds
+[2023-01-24T18:39:20.962+0000] {processor.py:153} INFO - Started process (PID=4832) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:39:20.963+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:39:20.964+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:39:20.964+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:39:20.967+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:39:20.966+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:39:20.968+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:39:21.004+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.048 seconds
+[2023-01-24T18:39:51.770+0000] {processor.py:153} INFO - Started process (PID=4909) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:39:51.771+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:39:51.772+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:39:51.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:39:51.775+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:39:51.774+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:39:51.775+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:39:51.805+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.038 seconds
+[2023-01-24T18:40:22.080+0000] {processor.py:153} INFO - Started process (PID=4975) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:40:22.081+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:40:22.082+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:40:22.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:40:22.085+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:40:22.083+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:40:22.085+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:40:22.123+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T18:40:52.452+0000] {processor.py:153} INFO - Started process (PID=5049) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:40:52.453+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:40:52.454+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:40:52.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:40:52.457+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:40:52.456+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:40:52.457+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:40:52.493+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.046 seconds
+[2023-01-24T18:41:22.888+0000] {processor.py:153} INFO - Started process (PID=5117) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:41:22.893+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:41:22.894+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:41:22.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:41:22.896+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:41:22.895+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:41:22.897+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:41:22.934+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.052 seconds
+[2023-01-24T18:41:53.479+0000] {processor.py:153} INFO - Started process (PID=5181) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:41:53.480+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:41:53.481+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:41:53.480+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:41:53.483+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:41:53.482+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:41:53.483+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:41:53.514+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.040 seconds
+[2023-01-24T18:42:23.824+0000] {processor.py:153} INFO - Started process (PID=5257) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:42:23.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:42:23.825+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:42:23.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:42:23.828+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:42:23.827+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:42:23.828+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:42:23.859+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.039 seconds
+[2023-01-24T18:42:54.499+0000] {processor.py:153} INFO - Started process (PID=5322) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:42:54.500+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:42:54.501+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:42:54.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:42:54.503+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:42:54.502+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:42:54.504+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:42:54.532+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.036 seconds
+[2023-01-24T18:43:25.072+0000] {processor.py:153} INFO - Started process (PID=5398) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:43:25.073+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:43:25.073+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:43:25.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:43:25.076+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:43:25.075+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:43:25.076+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:43:25.104+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.036 seconds
+[2023-01-24T18:43:55.210+0000] {processor.py:153} INFO - Started process (PID=5462) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:43:55.212+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:43:55.212+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:43:55.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:43:55.215+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:43:55.214+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:43:55.215+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:43:55.242+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.036 seconds
+[2023-01-24T18:44:25.392+0000] {processor.py:153} INFO - Started process (PID=5526) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:44:25.393+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:44:25.394+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:44:25.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:44:25.396+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:44:25.395+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:44:25.397+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:44:25.428+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.040 seconds
+[2023-01-24T18:44:56.134+0000] {processor.py:153} INFO - Started process (PID=5602) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:44:56.135+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:44:56.136+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:44:56.136+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:44:56.138+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:44:56.137+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:44:56.139+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:44:56.169+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.039 seconds
+[2023-01-24T18:45:26.204+0000] {processor.py:153} INFO - Started process (PID=5667) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:45:26.205+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:45:26.206+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:45:26.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:45:26.208+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:45:26.207+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:45:26.208+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:45:26.235+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.036 seconds
+[2023-01-24T18:45:56.387+0000] {processor.py:153} INFO - Started process (PID=5730) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:45:56.392+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:45:56.393+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:45:56.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:45:56.398+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:45:56.395+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:45:56.398+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:45:56.437+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.058 seconds
+[2023-01-24T18:46:26.655+0000] {processor.py:153} INFO - Started process (PID=5801) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:46:26.656+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:46:26.657+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:46:26.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:46:26.659+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:46:26.658+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:46:26.660+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:46:26.695+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.045 seconds
+[2023-01-24T18:46:56.805+0000] {processor.py:153} INFO - Started process (PID=5864) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:46:56.806+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:46:56.807+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:46:56.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:46:56.811+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:46:56.809+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:46:56.811+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:46:56.852+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.052 seconds
+[2023-01-24T18:47:27.111+0000] {processor.py:153} INFO - Started process (PID=5941) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:47:27.118+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:47:27.119+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:47:27.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:47:27.123+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:47:27.121+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:47:27.123+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:47:27.162+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.057 seconds
+[2023-01-24T18:47:57.300+0000] {processor.py:153} INFO - Started process (PID=6003) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:47:57.301+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:47:57.301+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:47:57.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:47:57.304+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:47:57.303+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:47:57.304+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:47:57.339+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T18:48:27.434+0000] {processor.py:153} INFO - Started process (PID=6064) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:48:27.436+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:48:27.437+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:48:27.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:48:27.440+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:48:27.439+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:48:27.441+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:48:27.475+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.045 seconds
+[2023-01-24T18:48:58.063+0000] {processor.py:153} INFO - Started process (PID=6140) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:48:58.064+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:48:58.065+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:48:58.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:48:58.068+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:48:58.067+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:48:58.068+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:48:58.103+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T18:49:28.277+0000] {processor.py:153} INFO - Started process (PID=6205) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:49:28.279+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:49:28.280+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:49:28.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:49:28.284+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:49:28.282+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:49:28.284+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:49:28.319+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T18:49:58.599+0000] {processor.py:153} INFO - Started process (PID=6280) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:49:58.604+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:49:58.610+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:49:58.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:49:58.613+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:49:58.612+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:49:58.613+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:49:58.653+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.059 seconds
+[2023-01-24T18:50:28.856+0000] {processor.py:153} INFO - Started process (PID=6346) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:50:28.857+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:50:28.858+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:50:28.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:50:28.861+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:50:28.860+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:50:28.861+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:50:28.891+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.039 seconds
+[2023-01-24T18:50:59.153+0000] {processor.py:153} INFO - Started process (PID=6412) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:50:59.154+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:50:59.155+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:50:59.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:50:59.158+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:50:59.156+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:50:59.158+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:50:59.195+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T18:51:29.405+0000] {processor.py:153} INFO - Started process (PID=6485) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:51:29.406+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:51:29.407+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:51:29.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:51:29.410+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:51:29.409+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:51:29.411+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:51:29.448+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.054 seconds
+[2023-01-24T18:51:59.600+0000] {processor.py:153} INFO - Started process (PID=6546) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:51:59.601+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:51:59.602+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:51:59.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:51:59.606+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:51:59.605+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:51:59.606+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:51:59.643+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T18:52:29.842+0000] {processor.py:153} INFO - Started process (PID=6610) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:52:29.843+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:52:29.844+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:52:29.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:52:29.847+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:52:29.846+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:52:29.852+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:52:29.903+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.068 seconds
+[2023-01-24T18:53:00.510+0000] {processor.py:153} INFO - Started process (PID=6686) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:53:00.511+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:53:00.512+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:53:00.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:53:00.515+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:53:00.513+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:53:00.515+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:53:00.548+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T18:53:30.913+0000] {processor.py:153} INFO - Started process (PID=6750) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:53:30.914+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:53:30.915+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:53:30.915+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:53:30.918+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:53:30.916+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:53:30.918+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:53:30.949+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.040 seconds
+[2023-01-24T18:54:01.476+0000] {processor.py:153} INFO - Started process (PID=6823) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:54:01.478+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:54:01.479+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:54:01.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:54:01.482+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:54:01.481+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:54:01.483+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:54:01.520+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.049 seconds
+[2023-01-24T18:54:32.236+0000] {processor.py:153} INFO - Started process (PID=6891) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:54:32.237+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:54:32.237+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:54:32.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:54:32.240+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:54:32.239+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:54:32.240+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:54:32.275+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T18:55:02.705+0000] {processor.py:153} INFO - Started process (PID=6955) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:55:02.708+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:55:02.709+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:55:02.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:55:02.712+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:55:02.711+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:55:02.712+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:55:02.742+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.041 seconds
+[2023-01-24T18:55:33.336+0000] {processor.py:153} INFO - Started process (PID=7033) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:55:33.337+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:55:33.338+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:55:33.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:55:33.342+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:55:33.340+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:55:33.342+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:55:33.378+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T18:56:03.594+0000] {processor.py:153} INFO - Started process (PID=7098) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:56:03.596+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:56:03.597+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:56:03.597+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:56:03.601+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:56:03.599+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:56:03.601+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:56:03.640+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.051 seconds
+[2023-01-24T18:56:34.026+0000] {processor.py:153} INFO - Started process (PID=7175) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:56:34.027+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:56:34.028+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:56:34.028+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:56:34.037+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:56:34.030+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:56:34.038+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:56:34.083+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.063 seconds
+[2023-01-24T18:57:04.894+0000] {processor.py:153} INFO - Started process (PID=7240) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:57:04.896+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:57:04.897+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:57:04.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:57:04.901+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:57:04.899+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:57:04.902+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:57:04.932+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T18:57:35.400+0000] {processor.py:153} INFO - Started process (PID=7304) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:57:35.402+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:57:35.403+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:57:35.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:57:35.407+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:57:35.406+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:57:35.408+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:57:35.444+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.049 seconds
+[2023-01-24T18:58:06.218+0000] {processor.py:153} INFO - Started process (PID=7381) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:58:06.219+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:58:06.220+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:58:06.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:58:06.223+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:58:06.222+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:58:06.223+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:58:06.258+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
+[2023-01-24T18:58:36.429+0000] {processor.py:153} INFO - Started process (PID=7446) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:58:36.430+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:58:36.431+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:58:36.431+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:58:36.434+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:58:36.433+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:58:36.435+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:58:36.490+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.067 seconds
+[2023-01-24T18:59:06.588+0000] {processor.py:153} INFO - Started process (PID=7517) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:59:06.590+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:59:06.591+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:59:06.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:59:06.594+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:59:06.593+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:59:06.594+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:59:06.662+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.092 seconds
+[2023-01-24T18:59:37.218+0000] {processor.py:153} INFO - Started process (PID=7585) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:59:37.219+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T18:59:37.220+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:59:37.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:59:37.223+0000] {logging_mixin.py:137} INFO - [2023-01-24T18:59:37.221+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T18:59:37.224+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T18:59:37.256+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T19:00:07.345+0000] {processor.py:153} INFO - Started process (PID=7647) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:00:07.346+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:00:07.347+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:00:07.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:00:07.350+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:00:07.348+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:00:07.350+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:00:07.393+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.055 seconds
+[2023-01-24T19:00:37.558+0000] {processor.py:153} INFO - Started process (PID=7719) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:00:37.559+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:00:37.559+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:00:37.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:00:37.562+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:00:37.561+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:00:37.562+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:00:37.595+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T19:01:07.796+0000] {processor.py:153} INFO - Started process (PID=7784) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:01:07.797+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:01:07.798+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:01:07.798+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:01:07.801+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:01:07.800+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:01:07.801+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:01:07.837+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.046 seconds
+[2023-01-24T19:01:37.861+0000] {processor.py:153} INFO - Started process (PID=7849) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:01:37.862+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:01:37.863+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:01:37.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:01:37.867+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:01:37.865+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:01:37.867+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:01:37.898+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.042 seconds
+[2023-01-24T19:02:07.924+0000] {processor.py:153} INFO - Started process (PID=7917) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:02:07.925+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:02:07.926+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:02:07.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:02:07.929+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:02:07.927+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:02:07.930+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:02:07.965+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.045 seconds
+[2023-01-24T19:02:38.194+0000] {processor.py:153} INFO - Started process (PID=7982) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:02:38.195+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:02:38.196+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:02:38.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:02:38.199+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:02:38.198+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:02:38.199+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:02:38.233+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T19:03:08.834+0000] {processor.py:153} INFO - Started process (PID=8059) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:03:08.835+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:03:08.836+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:03:08.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:03:08.839+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:03:08.838+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:03:08.840+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:03:08.880+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.052 seconds
+[2023-01-24T19:03:39.257+0000] {processor.py:153} INFO - Started process (PID=8124) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:03:39.258+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:03:39.259+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:03:39.259+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:03:39.263+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:03:39.261+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:03:39.263+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:03:39.295+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.043 seconds
+[2023-01-24T19:04:09.637+0000] {processor.py:153} INFO - Started process (PID=8188) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:04:09.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:04:09.638+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:04:09.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:04:09.641+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:04:09.640+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:04:09.641+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:04:09.677+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.045 seconds
+[2023-01-24T19:04:40.078+0000] {processor.py:153} INFO - Started process (PID=8266) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:04:40.079+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:04:40.080+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:04:40.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:04:40.084+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:04:40.082+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:04:40.084+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:04:40.121+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.049 seconds
+[2023-01-24T19:05:10.199+0000] {processor.py:153} INFO - Started process (PID=8329) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:10.200+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:05:10.201+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:05:10.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:10.205+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:05:10.203+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 5
+    schedule_interval = ) as dag:
+                        ^
+SyntaxError: invalid syntax
+[2023-01-24T19:05:10.205+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:10.240+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.047 seconds
+[2023-01-24T19:05:25.732+0000] {processor.py:153} INFO - Started process (PID=8379) to work on /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:25.733+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ETLcommands.py for tasks to queue
+[2023-01-24T19:05:25.734+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:05:25.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:25.741+0000] {logging_mixin.py:137} INFO - [2023-01-24T19:05:25.740+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/ETLcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETLcommands.py", line 4, in <module>
+    from airflow.operator.bash import BashOperator
+ModuleNotFoundError: No module named 'airflow.operator'
+[2023-01-24T19:05:25.742+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ETLcommands.py
+[2023-01-24T19:05:25.770+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ETLcommands.py took 0.044 seconds
