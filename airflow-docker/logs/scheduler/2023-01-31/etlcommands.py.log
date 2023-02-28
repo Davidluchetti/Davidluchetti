@@ -1,0 +1,812 @@
+[2023-01-31T13:02:09.349+0000] {processor.py:153} INFO - Started process (PID=66) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:02:09.351+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:02:09.368+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:02:09.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:02:13.021+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:02:13.016+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:02:13.022+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:02:13.060+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 3.732 seconds
+[2023-01-31T13:02:43.382+0000] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:02:43.383+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:02:43.384+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:02:43.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:02:43.637+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:02:43.636+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:02:43.637+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:02:43.669+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.290 seconds
+[2023-01-31T13:03:13.912+0000] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:03:13.919+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:03:13.920+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:03:13.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:03:14.289+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:03:14.288+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:03:14.290+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:03:14.328+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.423 seconds
+[2023-01-31T13:03:44.370+0000] {processor.py:153} INFO - Started process (PID=287) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:03:44.371+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:03:44.372+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:03:44.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:03:44.648+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:03:44.647+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:03:44.649+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:03:44.677+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.311 seconds
+[2023-01-31T13:04:14.784+0000] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:04:14.786+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:04:14.787+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:04:14.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:04:15.045+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:04:15.044+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:04:15.046+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:04:15.077+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.297 seconds
+[2023-01-31T13:04:45.160+0000] {processor.py:153} INFO - Started process (PID=434) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:04:45.162+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:04:45.162+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:04:45.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:04:45.433+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:04:45.432+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:04:45.433+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:04:45.466+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.311 seconds
+[2023-01-31T13:05:15.560+0000] {processor.py:153} INFO - Started process (PID=500) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:05:15.561+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:05:15.561+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:05:15.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:05:15.812+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:05:15.811+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:05:15.812+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:05:15.845+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.289 seconds
+[2023-01-31T13:05:45.871+0000] {processor.py:153} INFO - Started process (PID=576) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:05:45.873+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:05:45.874+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:05:45.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:05:46.159+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:05:46.158+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:05:46.160+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:05:46.186+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.320 seconds
+[2023-01-31T13:06:16.315+0000] {processor.py:153} INFO - Started process (PID=645) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:06:16.316+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:06:16.317+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:06:16.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:06:16.545+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:06:16.544+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:06:16.546+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:06:16.573+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.263 seconds
+[2023-01-31T13:06:46.905+0000] {processor.py:153} INFO - Started process (PID=720) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:06:46.906+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:06:46.907+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:06:46.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:06:47.286+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:06:47.283+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:06:47.286+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:06:47.355+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.455 seconds
+[2023-01-31T13:07:17.490+0000] {processor.py:153} INFO - Started process (PID=788) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:07:17.492+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:07:17.493+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:07:17.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:07:17.791+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:07:17.790+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:07:17.791+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:07:17.823+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.338 seconds
+[2023-01-31T13:07:47.887+0000] {processor.py:153} INFO - Started process (PID=855) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:07:47.888+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:07:47.888+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:07:47.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:07:48.130+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:07:48.129+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:07:48.131+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:07:48.158+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.275 seconds
+[2023-01-31T13:08:18.468+0000] {processor.py:153} INFO - Started process (PID=932) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:08:18.469+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:08:18.469+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:08:18.469+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:08:18.719+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:08:18.718+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:08:18.720+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:08:18.748+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.284 seconds
+[2023-01-31T13:08:48.836+0000] {processor.py:153} INFO - Started process (PID=997) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:08:48.838+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:08:48.839+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:08:48.839+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:08:49.119+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:08:49.118+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:08:49.119+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:08:49.147+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.316 seconds
+[2023-01-31T13:09:19.598+0000] {processor.py:153} INFO - Started process (PID=1065) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:09:19.599+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:09:19.600+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:09:19.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:09:20.087+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:09:20.083+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:09:20.088+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:09:20.129+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.553 seconds
+[2023-01-31T13:09:50.526+0000] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:09:50.527+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:09:50.528+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:09:50.528+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:09:50.813+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:09:50.811+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:09:50.813+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:09:50.844+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.322 seconds
+[2023-01-31T13:10:21.500+0000] {processor.py:153} INFO - Started process (PID=1204) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:10:21.501+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:10:21.502+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:10:21.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:10:21.923+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:10:21.921+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:10:21.923+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:10:21.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.460 seconds
+[2023-01-31T13:10:51.988+0000] {processor.py:153} INFO - Started process (PID=1282) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:10:51.989+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:10:51.990+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:10:51.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:10:52.245+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:10:52.244+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:10:52.246+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:10:52.273+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.290 seconds
+[2023-01-31T13:11:22.428+0000] {processor.py:153} INFO - Started process (PID=1348) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:11:22.429+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:11:22.430+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:11:22.430+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:11:22.728+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:11:22.726+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:11:22.728+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:11:22.761+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.338 seconds
+[2023-01-31T13:11:52.803+0000] {processor.py:153} INFO - Started process (PID=1423) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:11:52.805+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:11:52.823+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:11:52.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:11:53.183+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:11:53.182+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:11:53.183+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:11:53.215+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.422 seconds
+[2023-01-31T13:12:23.372+0000] {processor.py:153} INFO - Started process (PID=1491) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:12:23.380+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:12:23.381+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:12:23.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:12:23.774+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:12:23.773+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:12:23.775+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:12:23.808+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.441 seconds
+[2023-01-31T13:12:54.474+0000] {processor.py:153} INFO - Started process (PID=1565) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:12:54.475+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:12:54.476+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:12:54.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:12:54.882+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:12:54.881+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:12:54.883+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:12:54.916+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.447 seconds
+[2023-01-31T13:13:25.383+0000] {processor.py:153} INFO - Started process (PID=1634) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:13:25.384+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:13:25.385+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:13:25.385+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:13:25.687+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:13:25.686+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:13:25.688+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:13:25.714+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.338 seconds
+[2023-01-31T13:13:55.803+0000] {processor.py:153} INFO - Started process (PID=1702) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:13:55.804+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:13:55.805+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:13:55.805+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:13:56.205+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:13:56.204+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:13:56.206+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:13:56.243+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.444 seconds
+[2023-01-31T13:14:26.938+0000] {processor.py:153} INFO - Started process (PID=1779) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:14:26.939+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:14:26.940+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:14:26.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:14:27.204+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:14:27.203+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:14:27.205+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:14:27.238+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.304 seconds
+[2023-01-31T13:14:57.325+0000] {processor.py:153} INFO - Started process (PID=1845) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:14:57.326+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:14:57.326+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:14:57.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:14:57.629+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:14:57.627+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:14:57.629+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:14:57.656+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.336 seconds
+[2023-01-31T13:15:27.772+0000] {processor.py:153} INFO - Started process (PID=1920) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:15:27.774+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:15:27.775+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:15:27.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:15:28.099+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:15:28.098+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:15:28.100+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:15:28.147+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.380 seconds
+[2023-01-31T13:15:58.200+0000] {processor.py:153} INFO - Started process (PID=1986) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:15:58.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:15:58.202+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:15:58.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:15:58.446+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:15:58.445+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:15:58.446+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:15:58.477+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.282 seconds
+[2023-01-31T13:16:28.590+0000] {processor.py:153} INFO - Started process (PID=2059) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:16:28.591+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:16:28.592+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:16:28.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:16:28.996+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:16:28.994+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:16:28.996+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:16:29.027+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.442 seconds
+[2023-01-31T13:16:59.197+0000] {processor.py:153} INFO - Started process (PID=2131) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:16:59.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:16:59.202+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:16:59.201+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:16:59.491+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:16:59.490+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:16:59.492+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:16:59.548+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.355 seconds
+[2023-01-31T13:17:29.651+0000] {processor.py:153} INFO - Started process (PID=2197) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:17:29.653+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:17:29.654+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:17:29.653+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:17:30.039+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:17:30.037+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:17:30.046+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:17:30.081+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.437 seconds
+[2023-01-31T13:18:00.330+0000] {processor.py:153} INFO - Started process (PID=2277) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:18:00.331+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:18:00.332+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:18:00.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:18:00.588+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:18:00.587+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:18:00.588+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:18:00.622+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.296 seconds
+[2023-01-31T13:18:30.669+0000] {processor.py:153} INFO - Started process (PID=2345) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:18:30.669+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:18:30.670+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:18:30.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:18:30.925+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:18:30.924+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:18:30.925+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:18:30.949+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.285 seconds
+[2023-01-31T13:19:01.284+0000] {processor.py:153} INFO - Started process (PID=2424) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:19:01.286+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:19:01.286+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:19:01.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:19:01.572+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:19:01.571+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:19:01.573+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:19:01.606+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.328 seconds
+[2023-01-31T13:19:31.752+0000] {processor.py:153} INFO - Started process (PID=2489) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:19:31.753+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:19:31.754+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:19:31.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:19:32.059+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:19:32.058+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:19:32.060+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:19:32.089+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.341 seconds
+[2023-01-31T13:20:02.271+0000] {processor.py:153} INFO - Started process (PID=2567) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:20:02.273+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:20:02.274+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:20:02.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:20:02.578+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:20:02.577+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:20:02.579+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:20:02.611+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.345 seconds
+[2023-01-31T13:20:32.666+0000] {processor.py:153} INFO - Started process (PID=2634) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:20:32.667+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:20:32.667+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:20:32.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:20:32.900+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:20:32.899+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:20:32.900+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:20:32.927+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.266 seconds
+[2023-01-31T13:21:03.173+0000] {processor.py:153} INFO - Started process (PID=2708) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:21:03.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:21:03.175+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:21:03.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:21:03.536+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:21:03.535+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:21:03.536+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:21:03.576+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.409 seconds
+[2023-01-31T13:21:33.621+0000] {processor.py:153} INFO - Started process (PID=2776) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:21:33.622+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:21:33.623+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:21:33.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:21:33.858+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:21:33.857+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:21:33.859+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:21:33.888+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.271 seconds
+[2023-01-31T13:22:04.800+0000] {processor.py:153} INFO - Started process (PID=2843) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:22:04.801+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:22:04.802+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:22:04.802+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:22:05.105+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:22:05.104+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:22:05.106+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:22:05.951+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 1.155 seconds
+[2023-01-31T13:22:36.270+0000] {processor.py:153} INFO - Started process (PID=2921) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:22:36.271+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:22:36.272+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:22:36.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:22:36.503+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:22:36.502+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:22:36.504+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:22:36.530+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.265 seconds
+[2023-01-31T13:23:07.456+0000] {processor.py:153} INFO - Started process (PID=2987) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:23:07.458+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:23:07.459+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:23:07.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:23:07.733+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:23:07.732+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:23:07.734+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:23:07.759+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.308 seconds
+[2023-01-31T13:23:38.080+0000] {processor.py:153} INFO - Started process (PID=3064) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:23:38.081+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:23:38.082+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:23:38.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:23:38.335+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:23:38.334+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:23:38.336+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:23:38.364+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.287 seconds
+[2023-01-31T13:24:08.529+0000] {processor.py:153} INFO - Started process (PID=3131) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:24:08.531+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:24:08.532+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:24:08.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:24:08.834+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:24:08.833+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:24:08.835+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:24:08.861+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.337 seconds
+[2023-01-31T13:24:39.581+0000] {processor.py:153} INFO - Started process (PID=3209) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:24:39.582+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:24:39.583+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:24:39.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:24:39.825+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:24:39.824+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:24:39.826+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:24:39.859+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.282 seconds
+[2023-01-31T13:25:10.755+0000] {processor.py:153} INFO - Started process (PID=3275) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:25:10.756+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:25:10.757+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:25:10.757+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:25:11.106+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:25:11.105+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:25:11.107+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:25:11.152+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.403 seconds
+[2023-01-31T13:25:41.526+0000] {processor.py:153} INFO - Started process (PID=3353) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:25:41.527+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:25:41.528+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:25:41.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:25:41.832+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:25:41.830+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:25:41.832+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:25:41.865+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.343 seconds
+[2023-01-31T13:26:12.729+0000] {processor.py:153} INFO - Started process (PID=3420) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:26:12.731+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:26:12.732+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:26:12.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:26:12.999+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:26:12.998+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:26:12.999+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:26:13.025+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.302 seconds
+[2023-01-31T13:26:43.160+0000] {processor.py:153} INFO - Started process (PID=3499) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:26:43.161+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:26:43.162+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:26:43.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:26:43.411+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:26:43.410+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:26:43.411+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:26:43.438+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.283 seconds
+[2023-01-31T13:27:14.037+0000] {processor.py:153} INFO - Started process (PID=3563) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:27:14.039+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:27:14.040+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:27:14.039+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:27:14.394+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:27:14.393+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:27:14.395+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:27:14.431+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.399 seconds
+[2023-01-31T13:27:44.555+0000] {processor.py:153} INFO - Started process (PID=3641) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:27:44.556+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:27:44.556+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:27:44.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:27:44.858+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:27:44.857+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:27:44.859+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:27:44.886+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.337 seconds
+[2023-01-31T13:28:14.983+0000] {processor.py:153} INFO - Started process (PID=3709) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:28:14.984+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:28:14.985+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:28:14.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:28:15.262+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:28:15.261+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:28:15.262+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:28:15.288+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.311 seconds
+[2023-01-31T13:28:45.330+0000] {processor.py:153} INFO - Started process (PID=3785) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:28:45.331+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:28:45.332+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:28:45.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:28:45.607+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:28:45.606+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:28:45.607+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:28:45.633+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.308 seconds
+[2023-01-31T13:29:15.818+0000] {processor.py:153} INFO - Started process (PID=3856) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:29:15.819+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:29:15.820+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:29:15.820+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:29:16.135+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:29:16.134+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:29:16.136+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:29:16.166+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.353 seconds
+[2023-01-31T13:29:46.203+0000] {processor.py:153} INFO - Started process (PID=3921) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:29:46.205+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:29:46.206+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:29:46.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:29:46.531+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:29:46.530+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:29:46.532+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:29:46.565+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.367 seconds
+[2023-01-31T13:30:16.814+0000] {processor.py:153} INFO - Started process (PID=3999) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:30:16.815+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:30:16.817+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:30:16.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:30:17.160+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:30:17.159+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:30:17.160+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:30:17.187+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.379 seconds
+[2023-01-31T13:30:47.238+0000] {processor.py:153} INFO - Started process (PID=4065) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:30:47.239+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:30:47.240+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:30:47.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:30:47.490+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:30:47.488+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:30:47.490+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:30:47.521+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.286 seconds
+[2023-01-31T13:31:18.473+0000] {processor.py:153} INFO - Started process (PID=4142) to work on /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:31:18.475+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/etlcommands.py for tasks to queue
+[2023-01-31T13:31:18.476+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:31:18.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:31:18.782+0000] {logging_mixin.py:137} INFO - [2023-01-31T13:31:18.780+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/etlcommands.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etlcommands.py", line 46, in <module>
+    capture_account_data >> is_valid >> [valid, nvalid]
+NameError: name 'nvalid' is not defined
+[2023-01-31T13:31:18.782+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/etlcommands.py
+[2023-01-31T13:31:18.812+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/etlcommands.py took 0.344 seconds
