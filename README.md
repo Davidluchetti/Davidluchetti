@@ -1,6 +1,4 @@
-<div align="center">
-  <a [![David Luchetti's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats) </a>
-</div>
+[![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti)](https://github.com/anuraghazra/github-readme-stats)
 <br>
 <div style="display: inline_block"><br>
   <img align="center" alt="David-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
