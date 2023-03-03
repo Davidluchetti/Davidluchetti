@@ -1,4 +1,4 @@
-<div style="text-align: right">![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true)] </div>
+![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true)]
 <br>
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=github-readme-stats)]
 <br>
