@@ -1,4 +1,4 @@
-[![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+[![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true)]
 <br>
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
 <div style="display: inline_block"><br>
