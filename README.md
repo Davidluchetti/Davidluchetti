@@ -25,7 +25,7 @@
     <a href="https://wa.me/5511980968885" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
-### <p>:🇺🇸: English
+### <p>:us: English
 #### Hi there 👋 I'm David Luchetti but you can call me Dave,<br>
 #### I'm 25 years old and I code since 2019.
 > - 😄 Pronouns: He,His,Him.<br>
