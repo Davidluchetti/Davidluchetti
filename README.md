@@ -1,5 +1,5 @@
 <div align="center">
-  <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Daviduchetti&theme=react&line_height=40&hide=css"/> </a>
+  <a [![David Luchetti's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats) </a>
 </div>
 <br>
 <div style="display: inline_block"><br>
