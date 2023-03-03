@@ -1,6 +1,8 @@
-![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true)]
+![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true)
 <br>
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=github-readme-stats)]
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=github-readme-stats&theme=highcontras)
+<br>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Davidluchetti&theme=highcontras)
 <br>
 <div style="display: inline_block"><br>
   <img align="center" alt="David-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
