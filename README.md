@@ -1,9 +1,12 @@
-![David's GitHub stats](https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true)
-<br>
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=github-readme-stats&theme=highcontras)
-<br>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Davidluchetti&theme=highcontras)
-<br>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=Davidluchetti&theme=highcontrast&show_icons=true" />
+</a>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davidluchetti&theme=highcontrast" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=github-readme-david&theme=highcontrast" />
+</a>
 <div style="display: inline_block"><br>
   <img align="center" alt="David-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
   <img align="center" alt="David-Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg">
