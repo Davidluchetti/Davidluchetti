@@ -5,7 +5,7 @@
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davidluchetti&theme=highcontrast" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=github-readme-david&theme=highcontrast" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=Davidluchetti&theme=highcontrast" />
 </a>
 <div style="display: inline_block"><br>
   <img align="center" alt="David-Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
