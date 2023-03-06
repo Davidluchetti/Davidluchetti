@@ -4,7 +4,7 @@
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davidluchetti&theme=highcontrast" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/DavidLuchetti/Davidluchetti">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Davidluchetti&repo=Davidluchetti&theme=highcontrast" />
 </a>
 <div style="display: inline_block"><br>
