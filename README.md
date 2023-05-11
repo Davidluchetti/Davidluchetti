@@ -69,3 +69,4 @@ Desenvolvimento de API's e qualquer outro tipo de código em conjunto nestes ram
 ☎️+5511980958885<br>
 
 > - ⚡ Curiosidade: Comecei a carreira de profissional de TI inspirado em meu pai (Antonio) que começou programando ao final dos anos 80.<br> Meus primeiros contatos com linguagens de programação foram com Scratch na escola e SQL em meu primeiro emprego de carteira ascinada.</p>
+# SQLDanone
