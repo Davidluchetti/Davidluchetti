@@ -1,3 +1,37 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "wbrdivb004",
+            "port": 1433,
+            "driver": "MySQL",
+            "name": "Staging PRD",
+            "group": "Danone",
+            "database": "StagingProd",
+            "password": "$tag!ng8P$er",
+            "username": "stagingprduser"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "instanceName": "MSSQLSERVER",
+                "tdsVersion": "7_4"
+            },
+            "previewLimit": 50,
+            "server": "10.8.1.51",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL SERVER Danone",
+            "group": "DANONE Database",
+            "database": "StagingProd",
+            "username": "NEAD\\stagingprduser",
+            "password": "$tag!ng8P$er"
+        }
+    ]
 }
